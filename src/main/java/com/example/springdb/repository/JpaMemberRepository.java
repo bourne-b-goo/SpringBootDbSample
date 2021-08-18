@@ -2,8 +2,6 @@ package com.example.springdb.repository;
 
 import com.example.springdb.domain.Member;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
-
 import javax.persistence.EntityManager;
 import java.util.List;
 import java.util.Optional;

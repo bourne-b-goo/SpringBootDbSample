@@ -2,13 +2,11 @@ package com.example.springdb.service;
 
 import com.example.springdb.domain.Member;
 import com.example.springdb.repository.MemberRepository;
-import lombok.Data;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
